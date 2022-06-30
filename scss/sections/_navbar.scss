@@ -1,0 +1,18 @@
+@use  '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu{
+ @include gradient;
+
+.navbar-nav{
+    
+    a{
+       
+    padding: 0 0.7rem;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    
+}
+}
+}

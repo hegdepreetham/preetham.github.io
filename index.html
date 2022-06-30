@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap v5 Themekit</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</head>
+
+<>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <nav class="navbar navbar-expand-lg menu navbar-dark shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img style="height: 50px; width: 50px; border-radius:30%;"
+                    src="https://pbs.twimg.com/media/DjRsLbyV4AIZdIJ.jpg" alt="logo-img"><span
+                    style="margin-left: 4px;color:white; font-weight: 600;font-size: 1.5rem;">Anushka</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Testimonials</a>
+                    <a class="nav-link " href="#">Faq</a>
+                    <a class="nav-link " href="#">Portfolio</a>
+                    <a class="nav-link " href="#">Contact</a>
+                </div>
+                <a href="tel:7019445175"><button type="button"
+                        class="rounded-pill btn-rounded tele ms-4">7019445175<span><i
+                                class="fa fa-phone"></i></span></button></a>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <section id="home" class="intro-section">
+        <div class="container">
+            <div class="row align-items-center text-white">
+                <div class="col-md-6 intros">
+                    <h1 class="display-2">
+                        <span class="display-2--intro">Hey! I'm Anushka</span>
+                        <span class="display-2--description lh-base">This s a multi-purpose responsive layout
+                            created with bootstrap-5. This page is about Anushka Shetty
+                        </span>
+                    </h1>
+                    <button type="button" class="rounded-pill btn-rounded ">Get in touch<span><i
+                                class="fa fa-chevron-circle-right"></i></span></button>
+                </div>
+                <div class="col-md-6 intros text-end">
+                    <div class="video-box">
+                        <img class="img-fluid" src="file:///C:/Users/Hosamane/Downloads/Coding%20_Monochromatic.png"
+                            alt="coding">
+                        <a href="#" class="glightbox position-absolute top-50 start-50 align-content-center">
+                            <span>
+
+                                <i class="fa fa-play-circle"></i>
+                            </span>
+                            <span class="border-animation border-animation-border1"></span>
+                            <span class="border-animation border-animation-border2"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,64L60,53.3C120,43,240,21,360,42.7C480,64,600,128,720,176C840,224,960,256,1080,234.7C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <script type="text/javascript">
+        const lightbox = GLightbox({
+            'href': 'https://www.youtube.com/watch?v=ZMjcVJy9q94',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoPlayVideos': true,
+        });</script>
+
+
+
+    <section id="companies" class="companies">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="fw-bold lead mb-3 ">Trusted by companies like</h4>
+                <div class="heading-line mb-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-2">
+                    <div class="companies__logo-box shadow-sm"><img
+                            src="data:image/png;base64,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"
+                            alt="" class="img-fluid"></div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="companies__logo-box shadow-sm"><img
+                            src="data:image/png;base64,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"
+                            alt="" class="img-fluid"></div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="companies__logo-box shadow-sm"><img
+                            src="data:image/png;base64,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"
+                            alt="" class="img-fluid"></div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="companies__logo-box shadow-sm"><img
+                            src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png" alt=""
+                            class="img-fluid"></div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="companies__logo-box shadow-sm"><img
+                            src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png"
+                            alt="" class="img-fluid"></div>
+                </div>
+                <div class="col-md-4 col-lg-2">
+                    <div class="companies__logo-box shadow-sm"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt=""
+                            class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold  mb-3 ">Our Services</h1>
+                <div class="heading-line mb-1"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row pt-2 pb-2 mt-0 mb-3">
+                <div class="col-md-6">
+                    <div class="bg-white p-3">
+                        <h2 class="fw-bold text-capitalize text-center border-right">
+                            our services range from initial design to development anywhere anytime
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-white p-4 text-center">
+                        <p class="fw-light text-start">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-md-6 services-content text-start">
+                    <span class="icon"><i class="fa fa-paper-plane d-block"></i></span>
+                    <h2 class="fw-bold text-start text-primary display-3-title"> Marketing</h2>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button type="button" class="rounded-pill btn-rounded btn-rounded-border ">Learn more<span><i
+                                class="fa fa-chevron-circle-right"></i></span></button>
+                </div>
+                <div class="col-md-6 services-pic">
+                    <img class="img-fluid" style="width: 100%;"
+                        src="file:///C:/Users/Hosamane/Downloads/Marketing_Monochromatic.png" alt="market logo">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6 services-pic text-end">
+                    <img class="img-fluid" style="width: 100%;"
+                        src="file:///C:/Users/Hosamane/Downloads/Data%20storage_Monochromatic.png" alt="market logo">
+                </div>
+
+                <div class="col-md-6 col-lg-6 services-content ">
+                    <span class="icon"><i class="fa fa-cloud-upload d-block"></i></span>
+                    <h2 class="fw-bold text-start text-primary display-3-title"> Cloud hosting</h2>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button type="button" class="rounded-pill btn-rounded btn-rounded-border ">Learn more<span><i
+                                class="fa fa-chevron-circle-right"></i></span></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 services-content text-start">
+                    <span class="icon"><i class="fa fa-code d-block"></i></span>
+                    <h2 class="fw-bold text-start text-primary display-3-title"> web Development</h2>
+                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button type="button" class="rounded-pill btn-rounded btn-rounded-border ">Learn more<span><i
+                                class="fa fa-chevron-circle-right"></i></span></button>
+                </div>
+                <div class="col-md-6 services-pic">
+                    <img class="img-fluid" style=" width: 100%;"
+                        src="file:///C:/Users/Hosamane/Downloads/Web%20Developer_Monochromatic.png" alt="market logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonials" class="testimonials">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,128L60,160C120,192,240,256,360,245.3C480,235,600,149,720,101.3C840,53,960,43,1080,80C1200,117,1320,203,1380,245.3L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="row text-center text-white">
+                <h1 class="display-3 fw-bold ">Testimonials</h1>
+                <hr style="width: 100px; height: 3px;" class="mx-auto">
+                <p class="lead pt-1">what our clients are saying</p>
+            </div>
+
+            <div class="row align-items-center">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+                    <div class="carousel-inner">
+
+                        <!--Item 1-->
+                        <div class="carousel-item active">
+                            <!-- testimonials card-->
+                            <div class="testimonials-card">
+                                <p class="lh-lg">
+                                    <i class="fa fa-quote-left"></i>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit debitis
+                                    ducimus sit vero eum ipsam mollitia laboriosam quisquam eaque tempora ex quasi ullam
+                                    expedita libero cum voluptatibus, doloremque pariatur?
+                                    <i class="fa fa-quote-right"></i>
+                                <div class="ratings p-1">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!--client picture-->
+                            <div class="testimonials-picture">
+                                <img class="img-fluid rounded-circle"
+                                    src="https://www.freewalldownload.com/katrina-kaif/katrina-kaif-cute-desktop-wallpaper.jpg"
+                                    alt="">
+                            </div>
+                            <!--client name & role-->
+                            <div class="testimonials-name">
+                                <h3>Katrina kaif</h3>
+                                <p class="lead">CEO</p>
+                            </div>
+                        </div>
+                        <!--item-2-->
+                        <div class="carousel-item ">
+                            <!-- testimonials card-->
+                            <div class="testimonials-card">
+                                <p class="lh-lg">
+                                    <i class="fa fa-quote-left"></i>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit debitis
+                                    ducimus sit vero eum ipsam mollitia laboriosam quisquam eaque tempora ex quasi ullam
+                                    expedita libero cum voluptatibus, doloremque pariatur?
+                                    <i class="fa fa-quote-right"></i>
+                                <div class="ratings  p-1">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!--client picture-->
+                            <div class="testimonials-picture">
+                                <img class="img-fluid rounded-circle"
+                                    src="https://1.bp.blogspot.com/-lIsI0hy9BU4/XcRCarlMYwI/AAAAAAAABBU/0ueB_f04AJAL1FAEzHeM3UY4BH7Mo9WhQCNcBGAsYHQ/s1600/alia%2Bbhatt-pics-for-watsup-dp.jpg"
+                                    alt="">
+
+                            </div>
+                            <!--client name & role-->
+                            <div class="testimonials-name">
+                                <h3>Alia Bhatt</h3>
+                                <p class="lead">Founder</p>
+                            </div>
+                        </div>
+
+
+                        <!--item-3-->
+                        <div class="carousel-item ">
+                            <!-- testimonials card-->
+                            <div class="testimonials-card">
+                                <p class="lh-lg">
+                                    <i class="fa fa-quote-left"></i>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit debitis
+                                    ducimus sit vero eum ipsam mollitia laboriosam quisquam eaque tempora ex quasi ullam
+                                    expedita libero cum voluptatibus, doloremque pariatur?
+                                    <i class="fa fa-quote-right  p-1"></i>
+                                <div class="ratings">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!--client picture-->
+                            <div class="testimonials-picture mb-10">
+                                <img class="img-fluid rounded-circle"
+                                    src="http://1.bp.blogspot.com/-RL3AlMcjEQg/UxDjXI-0YmI/AAAAAAAAUPw/x5y0kSSMXHw/s1600/deepika-padukone+(1).jpg"
+                                    alt="">
+
+                            </div>
+                            <!--client name & role-->
+                            <div class="testimonials-name">
+                                <h3>Deepika Padukone</h3>
+                                <p class="lead">Manager</p>
+                            </div>
+                        </div>
+
+                        <!--item-4-->
+                        <div class="carousel-item ">
+                            <!-- testimonials card-->
+                            <div class="testimonials-card">
+                                <p class="lh-lg">
+                                    <i class="fa fa-quote-left"></i>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit debitis
+                                    ducimus sit vero eum ipsam mollitia laboriosam quisquam eaque tempora ex quasi ullam
+                                    expedita libero cum voluptatibus, doloremque pariatur?
+                                    <i class="fa fa-quote-right"></i>
+                                <div class="ratings  p-1">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!--client picture-->
+                            <div class="testimonials-picture">
+                                <img class="img-fluid rounded-circle"
+                                    src="https://www.veethi.com/images/people/fullsize/Ileana_DCruz_20160314070357.jpeg"
+                                    alt="">
+
+                            </div>
+                            <!--client name & role-->
+                            <div class="testimonials-name">
+                                <h3>Ileana Dcruz</h3>
+                                <p class="lead">Director</p>
+                            </div>
+                        </div>
+
+
+                        <!--item-5-->
+                        <div class="carousel-item ">
+                            <!-- testimonials card-->
+                            <div class="testimonials-card">
+                                <p class="lh-lg">
+                                    <i class="fa fa-quote-left"></i>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto impedit debitis
+                                    ducimus sit vero eum ipsam mollitia laboriosam quisquam eaque tempora ex quasi ullam
+                                    expedita libero cum voluptatibus, doloremque pariatur?
+                                    <i class="fa fa-quote-right"></i>
+                                <div class="ratings  p-1">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!--client picture-->
+                            <div class="testimonials-picture">
+                                <img class="img-fluid rounded-circle"
+                                    src="https://pbs.twimg.com/media/D4KYIDsVUAA0XeS.jpg" alt="">
+
+                            </div>
+                            <!--client name & role-->
+                            <div class="testimonials-name">
+                                <h3>Disha Patani</h3>
+                                <p class="lead">Global Marketing Leader</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-light fa fa-long-arrow-left" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+
+                        </button>
+                        <button class="btn btn-outline-light fa fa-long-arrow-right" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,128L60,160C120,192,240,256,360,245.3C480,235,600,149,720,101.3C840,53,960,43,1080,80C1200,117,1320,203,1380,245.3L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+
+    <!-- 
+                  START SECTION fAQ
+
+-->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="fw-bold display-3 mb-3 ">FAQ</h1>
+                <div class="heading-line mb-3"></div>
+                <p class="lead">Frequently asked questions get knoledge before hand</p>
+            </div>
+            <!--Accordian content-->
+
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <!--Accordian item 1-->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the main feautures?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via
+                                    CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!--Accordian item 2-->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Do i have to pay again after the trial
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding
+                                    via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                    default variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!--Accordian item 3-->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How can i get started after the trial
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via
+                                    CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <!--Accordian item 4-->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I be refunded if i am not satisfied
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFoour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the Fourthitem's accordion body.</strong> It is hidden by default,
+                                    until
+                                    the collapse plugin adds the appropriate classes that we use to style each element.
+                                    These classes control the overall appearance, as well as the showing and hiding via
+                                    CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables. It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start section portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row text-center mt-5">
+                <h1 class="fw-bold display-3 mb-3 ">Latest Work</h1>
+                <div class="heading-line mb-3"></div>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quo repellat pariatur
+                    commodi atque numquam. Nisi nesciunt reiciendis deleniti odit, laboriosam voluptate non, repudiandae
+                    ex porro et dignissimos magni provident?</p>
+            </div>
+            <!-- buttons-->
+            <div class="row text-center mt-5 g-3 mb-3">
+                <div class="col-md-12">
+                    <button class="btn btn-outline-primary">All</button>
+                    <button class="btn btn-outline-primary">Websites</button>
+                    <button class="btn btn-outline-primary">Design</button>
+                    <button class="btn btn-outline-primary">mockup</button>
+                </div>
+            </div>
+            <!--portfolio images-->
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://preview.redd.it/tc9n37p20wb81.jpg?width=640&crop=smart&auto=webp&s=7aec344825d964df8ef3982fb9d02b55b86c05c3"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 1</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="http://cdn29.us1.fansshare.com/pictures/anushkashetty/anushka-shetty-hot-images-in-arundhati-1692246341.jpg"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 2</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://1.bp.blogspot.com/-RlyRcHCkNeY/XkADpzP6DsI/AAAAAAAAOPo/b8ulPFB1SqESou-bTdkBFFgs7p8CBpETQCLcBGAsYHQ/s1600/Anushka%2BShetty%2Bnavel%2B%25287%2529.jpg"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 3</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://1.bp.blogspot.com/-G-8SCLg04hY/X9ZYMXuj4rI/AAAAAAAADJ4/U3n4ikOkIy4ZJserCR-cU_xfd5JwfgydACLcBGAsYHQ/s16000/Anushka%2BShetty%2BWet%2BNavel%2BShow%2BIn%2BRed%2BBikini%2BTop%2B%2528206%2529.jpg"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 4</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://static.toiimg.com/photo/26207219.cms?imgsize=161163" alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 5</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://1.bp.blogspot.com/-5WvNVffVSUY/XkADkqEk0jI/AAAAAAAAOO0/4VcTxxI2HO8kMIk38L-aMwU54Ay5wBW9wCLcBGAsYHQ/s1600/Anushka%2BShetty%2Bnavel%2B%252811%2529.jpg"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 6</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://qph.cf2.quoracdn.net/main-qimg-8e46f15e9f33b7013ea0a1153ba6feac-lq" alt=""
+                            class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 7</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="https://www.plumeriamovies.com/wp-content/uploads/2015/03/Anushka-Hot-Photos-Anushka-Shetty-3.jpg"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 8</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio-box shadow">
+                        <img src="http://2.bp.blogspot.com/-LGyi4tYbbzM/U8oeN760ktI/AAAAAAAAPyw/zBt_0so2doM/s1600/anushka-shetty-navel-hot+(2).jpg"
+                            alt="" class="img-fluid">
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>project name 9</h4>
+                                <p>category</p>
+                            </div>
+                        </div>
+                        </img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start section get started-->
+
+    <section id="contact" class="get-started mb-5">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="fw-bold display-3 mb-3 ">Get Started</h1>
+                <div class="heading-line "></div>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <!--Start Cta-->
+            <div class="row text-white">
+                <div class="col-12 col-lg-6 shadow gradient p-3">
+                    <div class="cta-info w-100">
+                        <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+                        <p class=" lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum deserunt odio
+                            quod repellat autem, sed, cum perspiciatis suscipit doloremque atque sunt modi odit
+                            temporibus, nobis molestias excepturi recusandae eos quisquam.
+                        </p>
+                        <h3 class="display-3-brief">What Will Be The Next Step</h3>
+                        <ul class="cta-info-list">
+                            <li>We will prepare the proposal</li>
+                            <li>we'll discuss it together</li>
+                            <li>let's start the discussion</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 shadow bg-white p-3">
+                    <div class="form w-100 pb-2">
+                        <h4 class="display-3-title mb-5">Start your Project</h4>
+                        <form action="#" class="row">
+                            <div class="mb-3 col-lg-6">
+                                <input class="form-control shadow form-control-lg " type="text"
+                                    placeholder="First name">
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <input class="form-control shadow form-control-lg" type="text" placeholder="Last name">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <input class="form-control shadow form-control-lg" type="email" placeholder="Email">
+                            </div>
+                            <div class="col-lg-12 mb-3">
+                                <textarea class="form-control shadow form-control-lg" rows="8"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="text-center d-grid mt-1">
+                                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">Submit
+                                    <i class="fa fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Footer-->
+
+
+    <footer class="footer ">
+        <div class="container">
+            <div class="row">
+                <!--content for mobile-->
+                <div class="col-md-4 col-lg-4 d-md-block d-lg-flex d-flex contact-box pt-1">
+                    <div class="contact-box-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call"
+                            viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                            <path d="M15 7a2 2 0 0 1 2 2" />
+                            <path d="M15 3a6 6 0 0 1 6 6" />
+                        </svg>
+                    </div>
+                    <div class="contact-box-info">
+                        <a href="tel:7019445175" class="contact-box-info-title">7019445175</a>
+                        <p class="contact-box-info-subtitle">Mon-Fri 9am-6pm</p>
+                    </div>
+                </div>
+                <!--content for email-->
+                <div class="col-md-4  d-md-block d-lg-flex d-flex contact-box pt-1">
+                    <div class="contact-box-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                            viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <rect x="3" y="5" width="18" height="14" rx="2" />
+                            <polyline points="3 7 12 13 21 7" />
+                        </svg>
+                    </div>
+                    <div class="contact-box-info">
+                        <a href="mailto:msadityam@gmail.com" class="contact-box-info-title">
+                            msadityams@gmail.com
+                        </a>
+                        <p class="contact-box-info-subtitle">
+                            Online Support
+                        </p>
+
+                    </div>
+                </div>
+                <!--content for location-->
+                <div class="col-md-4 d-md-block d-lg-flex d-flex contact-box pt-1">
+                    <div class="contact-box-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2"
+                            viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="18" y1="6" x2="18" y2="6.01" />
+                            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                            <line x1="9" y1="4" x2="9" y2="17" />
+                            <line x1="15" y1="15" x2="15" y2="20" />
+                        </svg>
+                    </div>
+                    <div class="contact-box-info">
+                        <a href="https://goo.gl/maps/yj5HyvYYM4yfUJmz9" class="contact-box-info-title"> Bangalore
+                            karnataka</a>
+                        <p class="contact-box-info-subtitle">560003</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media content-->
+        <div class="footer-sm" style="background-color: #212121;">
+            <div class="container">
+                <div class="row py-4 text-center text-white ">
+                    <div class="col-lg-5 col-md-6 mb-md-0 mb-4">
+                        connect with us on social media
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start the content for company info-->
+        <div class="container mt-5">
+            <div class="row text-white justify-content-center mt-3 pb-3">
+                <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Company Name</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px;height: 2px;">
+                    <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odit autem
+                        officiis tempore, itaque, iure quae cum culpa ipsum dicta magni sint. </p>
+                </div>
+            
+
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                <h5 class="text-capitalize fw-bold">Products</h5>
+                <hr class="bg-white d-inline-block mb-4" style="width: 60px;height: 2px;">
+                <ul class="list-inline company-list">
+                <li><a href="#">Lorem ipsum 1</a></li>
+                <li><a href="#">Lorem ipsum 2</a></li>
+                <li><a href="#">Lorem ipsum 3</a></li>
+                <li><a href="#">Lorem ipsum 4</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                <h5 class="text-capitalize fw-bold">Useful Links</h5>
+                <hr class="bg-white d-inline-block mb-4" style="width: 60px;height: 2px;">
+                <ul class="list-inline company-list">
+                    <li><a href="#">your account</a></li>
+                    <li><a href="#">Become an affiliate</a></li>
+                    <li><a href="#">Create an account</a></li>
+                    <li><a href="#">Help</a></li>
+                    </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                <h5 class="text-capitalize fw-bold">Contact</h5>
+                <hr class="bg-white d-inline-block mb-4" style="width: 60px;height: 2px;">
+                <ul class="list-inline company-list">
+                    <li><a href="#">Lorem ipsum 1</a></li>
+                    <li><a href="#">Lorem ipsum 2</a></li>
+                    <li><a href="#">Lorem ipsum 3</a></li>
+                    <li><a href="#">Lorem ipsum 4</a></li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+    
+<!-- Copyright info-->
+<div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+        <div class="row text-center text-white">
+            <div class="col-12">
+                <div class="footer-bottom-copyright">
+                    &copy;<a Copyright href="#">Copyright 2022 </a> | Created by <a href="https://www.instagram.com/aadityaa_ms/"> Aditya M S</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+<!-- back to top button-->
+<a href="" class="shadow btn-primary rounded-circle back-to-top">
+    <i class="fa fa-chevron-up"></i>
+</a>
+</body>
+</html>
